@@ -17,7 +17,10 @@ public class Main {
 		Calculator c = new Calculator(primo, secondo);
 		
 		c.somm(primo, secondo);
+		
 		c.diff(primo, secondo);
+		
+		
 		c.prod(primo, secondo);
 		c.div(primo, secondo);
 		System.out.println(" ecco tutte le operazioni possibili");
