@@ -20,7 +20,7 @@ public class Main {
 		c.diff(primo, secondo);
 		c.prod(primo, secondo);
 		c.div(primo, secondo);
-		
+		System.out.println(" ecco tutte le operazioni possibili");
 		sc.close();
 		
 	}
