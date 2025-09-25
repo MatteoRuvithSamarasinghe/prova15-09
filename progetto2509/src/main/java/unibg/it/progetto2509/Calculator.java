@@ -12,31 +12,31 @@ public class Calculator {
 	void prod(float x, float y) {
 		float result;
 		result=x*y;
-		System.out.println("il prodotto: "+result);
+		System.out.println("il prodotto: " + result);
 	}
 	
 	void diff(float x, float y) {
 		float result;
 		result=x-y;
-		System.out.println("differenza: "+result);
+		System.out.println("differenza: " + result);
 	}
 	
 	void somm(float x, float y) {
 		float result;
 		result=x+y;
-		System.out.println("somma: "+result);
+		System.out.println("somma: " + result);
 	}
 	
 	void div(float x, float y) {
 		float result;
-		float x1=x;
-		float y1=y;
+		float x1 = x;
+		float y1 = y;
 		
-		if(y1==0) {
+		if(y1 == 0) {
 			System.out.println("divisione impossibile");
 		}else {
-		result=x1/y1;
-		System.out.println("quoziente: "+result);
+		result = x1/y1;
+		System.out.println("quoziente: " + result);
 		}
 	}
 }
