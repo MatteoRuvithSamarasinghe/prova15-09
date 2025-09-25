@@ -9,10 +9,10 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Inserisci il primo valore: ");
-		int primo = sc.nextInt();
+		float primo = sc.nextInt();
 		
 		System.out.print("Inserisci il secondo valore: ");
-		int secondo = sc.nextInt();
+		float secondo = sc.nextInt();
 		
 		Calculator c = new Calculator(primo, secondo);
 		
