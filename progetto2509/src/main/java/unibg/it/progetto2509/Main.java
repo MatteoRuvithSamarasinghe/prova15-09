@@ -12,7 +12,7 @@ public class Main {
 		float primo = sc.nextInt();
 		
 		System.out.print("Inserisci il secondo valore: ");
-		float secondo = sc.nextInt();
+		float secondo = sc.nextFloat();
 		
 		Calculator c = new Calculator(primo, secondo);
 		
